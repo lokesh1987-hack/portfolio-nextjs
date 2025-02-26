@@ -1,4 +1,3 @@
-// app/layout.js (or app/layout.tsx for TypeScript)
 import Contact from "./Components/Contact";
 import Navbar from "./Components/Navbar";
 import "./globals.css"; // Ensure global styles are included
@@ -25,7 +24,7 @@ export const metadata = {
     siteName: "Liladhar Harode Portfolio",
     images: [
       {
-        url: "https://liladhar.in/assets/liladhar_image-C1Bhaepi.jpg",
+        url: "/liladhar_image.jpg",
         width: 1200,
         height: 630,
         alt: "Liladhar Harode Portfolio",
@@ -38,7 +37,7 @@ export const metadata = {
     title: "Liladhar Harode | Frontend Developer",
     description:
       "Frontend Web Developer crafting seamless user experiences with modern web technologies.",
-    images: ["https://liladhar.in/assets/liladhar_image-C1Bhaepi.jpg"],
+    images: ["/liladhar_image.jpg"],
     creator: "@liladharharode",
   },
 };
@@ -49,7 +48,7 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="canonical" href="https://liladhar.in" />
       </head>
-      <body className="min-h-screen">
+      <body className="">
         {/* Navbar */}
         <Navbar />
 
