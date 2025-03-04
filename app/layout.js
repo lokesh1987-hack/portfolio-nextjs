@@ -4,11 +4,11 @@ import "./globals.css"; // Ensure global styles are included
 import Script from "next/script";
 
 export const metadata = {
-  title: "Liladhar Harode | Frontend Developer",
+  title: "Liladhar Harode",
   description:
     "Liladhar Harode is a Frontend Web Developer specializing in React and Next.js, crafting seamless user experiences with modern web technologies.",
   keywords:
-    "Frontend Developer, Web Developer, React, Next.js, JavaScript, UI/UX, Portfolio, Liladhar Harode",
+    "Frontend Developer, Web Developer, React, Next.js, JavaScript, UI/UX, Portfolio, Liladhar Harode.liladhar,liladhar harode",
   authors: [{ name: "Liladhar Harode", url: "https://liladhar.in/" }],
   generator: "Next.js",
   applicationName: "Liladhar Harode Portfolio",
